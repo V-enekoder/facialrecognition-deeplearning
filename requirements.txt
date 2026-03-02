@@ -1,0 +1,13 @@
+# --- Núcleo de Inteligencia Artificial ---
+tensorflow>=2.16.1
+numpy>=1.23.5
+
+# --- Procesamiento de Imágenes ---
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# --- Análisis y Métricas ---
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0

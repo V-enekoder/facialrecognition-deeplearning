@@ -1,0 +1,45 @@
+# --- Entorno Virtual ---
+venv/
+ENV/
+env/
+bin/
+lib/
+share/
+include/
+pyvenv.cfg
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Datasets (Evita subir miles de fotos) ---
+dataset-original/
+dataset_procesado/
+imagenes-prueba/
+videos/
+
+# --- Imágenes sueltas de prueba ---
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# --- Modelos entrenados (Archivos pesados) ---
+*.keras
+*.h5
+*.tflite
+*.pb
+
+# --- IDEs y Editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Logs y temporales ---
+*.log
+.ipynb_checkpoints/
